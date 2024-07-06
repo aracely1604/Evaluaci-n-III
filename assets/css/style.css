@@ -1,0 +1,113 @@
+
+#logo {
+    font-family: 'Exo 2', Arial, sans-serif;
+}
+
+
+#nav-barra {
+    font-family: 'Cabin', Arial, sans-serif;
+}
+
+
+
+h2 {
+    font-family: 'Cabin', Arial, sans-serif;
+}
+
+
+h4 {
+    font-family: 'Cabin', Arial, sans-serif;
+}
+
+
+#parrafo {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+
+#parte-album {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+#parte-discografia {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+#parte-contacto {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+#Mi-cuenta {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+#discografiaa {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+
+#alerta {
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+}
+
+
+.no-underline {
+    text-decoration: none;
+}
+
+
+.bi-instagram {
+    font-size: 30px;
+}
+.bi-youtube {
+    font-size: 30px;
+}
+.bi-spotify {
+    font-size: 30px;
+}
+
+.bg-rosado {
+    background-color: #e678af !important; 
+}
+
+
+.btn-white {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.btn-white:hover {
+    background-color: #f8f9fa !important; 
+    color: #000 !important;
+}
+
+.img-resize {
+    width: 100%;
+    height: auto;
+    max-height: 700px;
+  }
+
+.img-resize {
+    width: 100%;
+    height: auto;
+    max-height: 500px; 
+    object-fit: cover;
+  }
+  
+  .carousel-caption h5,
+  .carousel-caption p {
+    color: white; 
+  }
+
+.bg-rosita {
+    background-color: rgb(235, 180, 189);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css">
+    <title>Calculadora de Calorías Quemadas en Ejercicio</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4"><i class="bi bi-calculator"></i>Estimación de Calorías Quemadas<i class="bi bi-calculator"></i></h1>
+        <form id="formulario">
+            <div class="mb-3">
+                <label for="peso" class="form-label">Peso (1-120 kg)</label>
+                <input type="number" class="form-control" id="peso" min="1" max="120" required>
+            </div>
+            <div class="mb-3">
+                <label for="minutos" class="form-label">Minutos que se ejercitó (5-150 minutos)</label>
+                <input type="number" class="form-control" id="minutos" min="5" max="150" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Actividad</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="actividad" id="actividadCaminar" value="caminar" checked>
+                    <label class="form-check-label" for="actividadCaminar">Caminar</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="actividad" id="actividadCorrer" value="correr">
+                    <label class="form-check-label" for="actividadCorrer">Correr</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Calcular Calorías</button>
+        </form>
+        <div id="alertas" class="mt-4"></div>
+    </div>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
